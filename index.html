@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table width="20%">
+    <form>
+        <tr>
+            <th colspan="2" align="center"><b>Pizza Shop 2.0</b></th>
+        </tr>
+
+        <tr>
+            <th scope="row" align="left">Name</th>
+            <td>
+                <form>
+                    <input type="text" id="name" placeholder="Input your name here" required>
+                  </form>
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row" align="left">Pizza Topping</th>
+            <td>
+            <div>
+                <input type="radio" id="Supreme" name="drone" value="Supreme" checked required />
+                <label for="Supreme">Supreme</label>
+            </div>
+            
+              <div>
+
+                  <input type="radio" id="Vegeterian" name="drone" value="Vegeterian" />
+                  <label for="Vegeterian">Vegeterian</label>
+              </div>
+              
+            
+              <div>
+
+                  <input type="radio" id="Hawaiian" name="drone" value="Hawaiian" />
+                  <label for="Hawaiian">Hawaiian</label>
+              </div>
+              
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row" align="left">Pizza Sauce</th>
+            <td>    
+                <select name="pizza_sauce">
+                        <option value="1">Tomato</option>
+                        <option value="2">Pepper</option>
+                        <option value="3">Ketchup</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row" align="left">Optional Extras</th>
+            <td>
+                <input type="checkbox" id="extra_cheese" name="extra_cheese" unchecked />
+                <label for="extra_cheese">Extra Cheese</label>
+
+                <input type="checkbox" id="gluten_free_base" name="gluten_free_base" unchecked />
+                <label for="gluten_free_base">gluten Free Base</label>
+
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row" colspan="2" align="left">Delivery Instructions: 
+                <textarea name="" id="" cols="100%" rows="3" required></textarea>
+
+            </th>
+            
+        </tr>
+
+        <tr>
+            <th scope="row" colspan="2" align="left">
+                <button>Send my order</button>
+            </th>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
